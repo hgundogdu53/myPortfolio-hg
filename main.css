@@ -52,3 +52,14 @@ section:nth-child(even) {
   background-color: #ddd;
 }
 
+@media screen and (min-width:300px) and (max-width:780px) {
+  .header {
+    display: inline-block;
+    color: white;
+    border: 1px;
+    width: 100%;
+    text-align: end;
+    background: gray;
+    height: 18px;
+  }
+}
