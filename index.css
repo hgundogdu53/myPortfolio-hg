@@ -5,6 +5,7 @@
 body {
     margin: 0;
     padding: 0;
+    max-height: 100%;
     font-family: 'Luckiest Guy', cursive;
     text-transform: uppercase;
     background: url(white-wall.jpeg) no-repeat center center fixed;
@@ -14,12 +15,15 @@ body {
     background-size: cover;
 }
 
+@media screen and (min-width:1096px) {
+
 .topPage {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     max-height: auto;
     width: 100%;
+    max-height: 100%;
     flex: 0 0 ;
     color: black;
 
@@ -32,7 +36,7 @@ body {
     width: 300px;
     height: auto;
     border-radius: 50%;
-    border: 1px dotted black;
+    border: 1px solid black;
  
 }
 header h1 {
@@ -40,7 +44,6 @@ header h1 {
     text-align: left;
     padding-left: 4%;
     padding-top: 1%;
-    text-decoration: black;
 }
 
 .navbar ul {
@@ -66,7 +69,7 @@ header h1 {
 }
 
 .bodyframe h2 {
-    margin-top: 15%;
+    margin-top: 10%;
     font-size: 48px;
     line-height: 72px;
     text-align: center;
@@ -85,4 +88,447 @@ main > .material-icons {
     font-size: 80px;
     text-align: center;
     margin-top: 10%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    background: black;
+    padding-right: 15%;
+    padding-left: 15%;
+    width: 100%;
+    max-height: 15%;
+}
+
+.footer  a img {
+    height: 40px;
+    width: auto;
+    color:black;
+    border-radius: 50%;
+    background: white;
+}
+
+.footer img:hover, .footer img:focus {
+    background: black;
+    height:42px;
+    cursor: pointer;
+
+}
+
+nav ul li:hover, nav ul li:focus {
+    cursor: pointer;
+    transition: 0s;
+    font-size: 18px;
+    color: #856901;
+    overflow: inherit;
+    z-index: 10;
+    text-decoration: underline;
+}
+
+body .js-top {
+    font-family: 'Special Elite', cursive;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: initial;
+    text-transform: initial;
+    padding-top: 6%;
+    padding-right: 10%;
+    padding-left: 10%;
+    color: #856901;
+}
+
+.js-top .js-project {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: auto;
+}
+.intro-quiz {
+    max-width: 700px;
+    max-height: 600px;
+}
+
+.js-top .logos {
+    display: flex;
+    justify-content: flex-start;   
+    padding-bottom: 2%;
+    text-align: center;
+}
+.js-top .first-logo, .second-logo, .third-logo, .last-logo {
+    width: 70px;
+    height: 60px;
+    margin-left: 1px;
+    padding-right: 3px;
+}
+.js-top .third-logo {
+    border-radius: 50%;
+}
+
+.js-top .js-project .targets {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 6%;
+}
+.js-top .js-project a {
+       color:black;
+       padding-right: 20px;
+}
+
+.js-top .js-project a:hover, .js-top .js-project a:focus {
+    font-size: 44px;
+}
+}
+
+@media screen and (min-width:600px) and (max-width:1095px) {
+    .topPage {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        max-height: auto;
+        width: 100%;
+        max-height: 100%;
+        flex: 0 0 ;
+        color: black;
+    
+    }
+    .logo {
+        padding-left: 5%;
+        padding-top: 25px;
+    }
+    .logo > img {
+        width: 200px;
+        height: auto;
+        border-radius: 50%;
+        border: 1px solid black;
+     
+    }
+    header h1 {
+        font-size: 18px;
+        text-align: left;
+        padding-left: 6%;
+        padding-top: 1%;
+    }
+    
+    .navbar ul {
+        position: absolute;
+        right: 5px;
+        padding-top: 0;
+        padding-right: 3%;
+    } 
+    
+    .navbar ul li {
+        display: inline-block;
+        text-align: center;
+        list-style: none;
+        font-size: 12px;
+        padding-left: 15px;
+        padding-right: 15px;
+        line-height: 18px;
+        
+    }
+    
+    .navbar .icon {
+        display: none;
+    }
+    
+    .bodyframe h2 {
+        margin-top: 10%;
+        font-size: 36px;
+        line-height: 48px;
+        text-align: center;
+        padding-left: 2%;
+    
+    }
+    
+    main {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 12%;
+        flex: 0 0 ;
+        padding: 5% 30% 3% 10%;
+    }
+    
+    main > .material-icons {
+        font-size: 60px;
+        text-align: center;
+        margin-top: 20%;
+        padding: 0 4%;
+    }
+    
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+        bottom: 0;
+        background: black;
+        padding-right: 15%;
+        padding-left: 15%;
+        width: 100%;
+        max-height: 9%;
+    }
+    
+    .footer  a img {
+        height: 35px;
+        width: auto;
+        color:black;
+        border-radius: 50%;
+        background: white;
+    }
+    
+    .footer img:hover, .footer img:focus {
+        background: black;
+        height:39px;
+        cursor: pointer;
+    
+    }
+    
+    nav ul li:hover, nav ul li:focus {
+        cursor: pointer;
+        transition: 0s;
+        font-size: 16px;
+        color: #856901;
+        overflow: inherit;
+        z-index: 10;
+        text-decoration: underline;
+    }
+    
+    body .js-top {
+        font-family: 'Special Elite', cursive;
+        font-size: 32px;
+        line-height: 48px;
+        text-align: initial;
+        text-transform: initial;
+        padding-top: 6%;
+        padding-right: 10%;
+        padding-left: 10%;
+        color: #856901;
+    }
+    .js-top p {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    
+    .js-top .js-project {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        overflow: auto;
+    }
+    .intro-quiz {
+        max-width: 500px;
+        max-height: 400px;
+    }
+    
+    .js-top .logos {
+        display: flex;
+        justify-content: flex-start;   
+        padding-bottom: 2%;
+        text-align: center;
+    }
+    .js-top .first-logo, .second-logo, .third-logo, .last-logo {
+        width: 50px;
+        height: 40px;
+        margin-left: 1px;
+        padding-right: 3px;
+    }
+    .js-top .third-logo {
+        border-radius: 50%;
+    }
+    
+    .js-top .js-project .targets {
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 6%;
+    }
+    .js-top .js-project a {
+           color:black;
+           padding-right: 20px;
+    }
+    
+    .js-top .js-project a:hover, .js-top .js-project a:focus {
+        font-size: 44px;
+    }
+}
+
+@media screen and (min-width:60px) and (max-width:599px) {
+    .topPage {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-height: auto;
+        width: 100%;
+        max-height: 100%;
+        flex: 0 0 ;
+        color: black;
+        padding-right: 5%;
+        padding-left:3%;
+    
+    }
+    .logo {
+        padding-left: 5%;
+        padding-top: 20px;
+    }
+    .logo > img {
+        width: 120px;
+        height: auto;
+        border-radius: 50%;
+        border: 1px solid black;
+     
+    }
+    header h1 {
+        font-size: 16px;
+        text-align: left;
+        padding-left: 5%;
+        padding-top: 1%;
+    }
+    
+    .navbar ul {
+        display: none;
+    } 
+    .navbar .icon {
+        display: block;
+        top: 0;
+        right: 0;
+        padding-top: 8px;
+        text-align: end;
+    }
+   
+    .navbar ul {
+        display: none;
+    }
+    .navbar ul li {
+        display: block;
+        text-align: end;
+        list-style: none;
+        font-size: 12px;
+        padding-right: 4%;
+        line-height: 24px;
+        
+    }
+    .navbar .active {
+        display: block;
+        text-align: end;
+        font-size: 30px;
+    }
+    
+    .bodyframe h2 {
+        margin-top: 10%;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        padding-left: 2%;
+    
+    }
+    
+    main {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 24%;
+        flex: 0 0 ;
+        padding: 5% 5% 3% 5%;
+    }
+    
+    main > .material-icons {
+        font-size: 42px;
+        text-align: center;
+        margin-top: 20%;
+        padding: 0 4%;
+    }
+    
+    .footer {
+        display: flex;
+        justify-content: space-around;
+        position: fixed;
+        bottom: 0;
+        background: black;
+        padding-right: 15%;
+        padding-left: 15%;
+        width: 100%;
+        max-height: 9%;
+    }
+    
+    .footer  a img {
+        height: 30px;
+        width: auto;
+        color:black;
+        border-radius: 50%;
+        background: white;
+    }
+    
+    .footer img:hover, .footer img:focus {
+        background: black;
+        height:32px;
+        cursor: pointer;
+    
+    }
+    
+    nav ul li:hover, nav ul li:focus {
+        cursor: pointer;
+        transition: 0s;
+        font-size: 16px;
+        color: #856901;
+        overflow: inherit;
+        z-index: 10;
+        text-decoration: underline;
+    }
+    
+    body .js-top {
+        font-family: 'Special Elite', cursive;
+        font-size: 20px;
+        line-height: 36px;
+        text-align: initial;
+        text-transform: initial;
+        padding-top: 6%;
+        padding-right: 10%;
+        padding-left: 10%;
+        color: #856901;
+    }
+    .js-top p {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    
+    .js-top .js-project {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        overflow: auto;
+    }
+    .intro-quiz {
+        max-width: 300px;
+        max-height: 200px;
+    }
+    
+    .js-top .logos {
+        display: flex;
+        justify-content: flex-start;   
+        padding-bottom: 2%;
+        text-align: center;
+    }
+    .js-top .first-logo, .second-logo, .third-logo, .last-logo {
+        width: 40px;
+        height: 30px;
+        margin-left: 1px;
+        padding-right: 3px;
+    }
+    .js-top .third-logo {
+        border-radius: 50%;
+    }
+    
+    .js-top .js-project .targets {
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 10%;
+    }
+    .js-top .js-project a {
+           color:black;
+           padding-right: 10px;
+    }
+    
+    .js-top .js-project a:hover, .js-top .js-project a:focus {
+        font-size: 38px;
+    }
+
 }

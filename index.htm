@@ -7,8 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Huseyin Gundogdu</title>
     <link rel="stylesheet" type="text/css" href="index.css">
-    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Special+Elite&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -17,13 +18,13 @@
         <nav class="navbar">
             <div class="icon">&#9776;</div>
             <ul>
-                <li>About</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <li id="home">Home</li>
+                <li id="about">About</li>
+                <li id="projects">Projects</li>
             </ul>
         </nav>
     </header>
-    <main role="main">
+    <main role="main" class="main">
         <section class="bodyframe">
             <h2>Front-end Web Developer <br>from Silicon Valley</h2>
         </section>
@@ -31,12 +32,23 @@
             code
         </i>
         <div class="logo">
-            <img src="my icon.png" />
+            <img alt="my picture" src="my icon.png" />
         </div>
     </main>
+    <div class="js-top"></div>
+
     <footer class="footer">
-        <h3></h3>
+        <a target="_blank" href="mailto:hgundogdu53@gmail.com"><img src="/Users/hsy-53/projects/gmail-icon updated.png"
+                alt="mail-icon" id="mailIcon" /></a>
+        <a target="_blank" href="https://github.com/hgundogdu53"><img src="/Users/hsy-53/projects/github.png"
+                alt="github-icon" id="githubIcon" /></a>
+        <a target="_blank" href="https://www.linkedin.com/in/huseyin-gundogdu-b79143130/"><img
+                src="/Users/hsy-53/projects/linkedin-logo.png" alt="linkedin-icon" id="linkedinIcon" /></a>
+        <a target="_blank" href="https://twitter.com/hgundogdu53"><img src="/Users/hsy-53/projects/twitter.png"
+                alt="twitter-icon" id="twitterIcon" /></a>
     </footer>
+    <script type="text/javascript" src="script.js"></script>
+
 </body>
 
 </html>
