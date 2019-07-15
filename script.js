@@ -13,10 +13,10 @@ function clickOnHome() {
 function clickOnAbout() {
     $('#about').on('click', event => {
         $('.main').hide();
-        $('.js-top').html(`<p>Hi, there! This is Huseyin Gundogdu who currently lives in San Francisco Bay Area. I am an enthusiast to develop
+        $('.js-top').html(`<div class="js-about"><p>Hi, there! This is Huseyin Gundogdu who currently lives in San Francisco Bay Area. I am an enthusiast to develop
     the user interface of websites, especially using HTML/CSS, JavaScript, JQuery and React. Besides that, Cloud computing is one 
     of the my interests and I achieved AWS Solution Architect-Associate certificate. Outside of coding, my interest areas are 
-    swimming, soccer, hiking and black tea. Feel free to get in touch by any means of communication.</p>`);
+    swimming, soccer, hiking and black tea. Feel free to get in touch by any means of communication.</p></div>`);
     });
 }
 
