@@ -138,7 +138,9 @@ body .js-top {
     padding-left: 10%;
     color: #856901;
 }
-
+.js-top .js-about{
+    font-size: 24px;
+}
 .js-top .js-project {
     display: flex;
     flex-direction: column;
