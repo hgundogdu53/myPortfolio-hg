@@ -30,8 +30,8 @@ function clickOnProjects() {
         It includes 10 questions and four choices per question. If you know the question, you will get '1' score for every question. Don't worry, if you make a wrong, correct answer will show up on the screen.
         End of the quiz, get your score and you can restart it, if you want.</p><div class="targets">
         <a target="_blank" href="https://github.com/hgundogdu53/breakingBad-quizApp">Repo</a>
-        <a target="_blank" href="https://hgundogdu53.github.io/breakingBad-quizApp/">Live</a></div>
-        </div><div class="js-project second"><h1>Okie-Dokie-Recipe</h1><div class="logos"><img class="first-logo" alt="html logo" src="/Users/hsy-53/projects/html.png"/><img class="second-logo" alt="css logo" src="/Users/hsy-53/projects/csslogo-2582747_960_720.png"/>
+        <a target="_blank" href="https://hgundogdu53.github.io/breakingBad-quizApp/">Live</a></div></br>
+        <h1>Okie-Dokie-Recipe</h1><div class="logos"><img class="first-logo" alt="html logo" src="/Users/hsy-53/projects/html.png"/><img class="second-logo" alt="css logo" src="/Users/hsy-53/projects/csslogo-2582747_960_720.png"/>
         <img class="third-logo" alt="js logo" src="/Users/hsy-53/projects/js.png"/><img alt="jquery-logo" class="last-logo" src="/Users/hsy-53/projects/jquery-logo.jpg"/></div>
         <img class="intro-quiz second" src="/Users/hsy-53/projects/portfolio/Screen Shot 2019-08-06 at 6.42.15 PM.png" alt="quiz app intro image"/>
         <p>This apps allows to reach food and beverage recipes. 
