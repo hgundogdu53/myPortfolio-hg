@@ -31,9 +31,9 @@ function clickOnProjects() {
         End of the quiz, get your score and you can restart it, if you want.</p><div class="targets">
         <a target="_blank" href="https://github.com/hgundogdu53/breakingBad-quizApp">Repo</a>
         <a target="_blank" href="https://hgundogdu53.github.io/breakingBad-quizApp/">Live</a></div></br>
-        <h1>Okie-Dokie-Recipe</h1><div class="logos"><img class="first-logo" alt="html logo" src="/Users/hsy-53/projects/html.png"/><img class="second-logo" alt="css logo" src="/Users/hsy-53/projects/csslogo-2582747_960_720.png"/>
-        <img class="third-logo" alt="js logo" src="/Users/hsy-53/projects/js.png"/><img alt="jquery-logo" class="last-logo" src="/Users/hsy-53/projects/jquery-logo.jpg"/></div>
-        <img class="intro-quiz second" src="/Users/hsy-53/projects/portfolio/Screen Shot 2019-08-06 at 6.42.15 PM.png" alt="quiz app intro image"/>
+        <h1>Okie-Dokie-Recipe</h1><div class="logos"><img class="first-logo" alt="html logo" src="html.png"/><img class="second-logo" alt="css logo" src="csslogo-2582747_960_720.png"/>
+        <img class="third-logo" alt="js logo" src="js.png"/><img alt="jquery-logo" class="last-logo" src="jquery-logo.jpg"/></div>
+        <img class="intro-quiz second" src="Screen Shot 2019-08-06 at 6.42.15 PM.png" alt="quiz app intro image"/>
         <p>This apps allows to reach food and beverage recipes. 
         If you want to decide cook something or prepare cocktails, you can make a search.
         As a result, you will get recipe and video lists.</p><div class="targets">
